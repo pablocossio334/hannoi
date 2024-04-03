@@ -87,7 +87,7 @@ default:
      
     } else{
 	document.getElementById("aviso_texto").innerHTML = "Perfecto!!! Prueba Superada!!!<br>"+
-	'<button id="reini" onclick="sair()">REINICIAR</button>';
+	'<button id="reini" onclick="sair()">REINICIAR</button>'+ '<button id="movs" onclick="movs()">VER MOVimientos</button>';
    
 	
     }
